@@ -3,7 +3,7 @@ const mongoose =require('mongoose');
 const userSchema = mongoose.Schema({
     name:{
         type:String,
-        maxlenght:50
+        maxlength:50
     },
     email:{
         type:String,
@@ -12,7 +12,7 @@ const userSchema = mongoose.Schema({
     },
     password:{
         type:String,
-        minlength:50
+        minlength:5
     },
     role:{
         type:Number,
